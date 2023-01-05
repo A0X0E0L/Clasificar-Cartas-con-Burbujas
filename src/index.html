@@ -9,29 +9,25 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
 </head>
 
-<body>
-    <div class="card" style="width: 18rem;">
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item" id="top"></li>
-            <li class="list-group-item" id="number"></li>
-            <li class="list-group-item" id="bottom"></li>
-        </ul>
+<body class="bg-success m-auto">
+    <div class="header-container mt-5 text-center">
+        <div class="header">
+            <label for="cantidadCartas">Original:</label>
+            <input type="text" id="cantidad-cartas" placeholder="" />
+            <button class="draw-btn" id="draw">Draw</button>
+            <button class="sort-btn" id="sort">Sort</button>
+            <div class="row align-items-center d-flex justify-content-center mx-auto" id="cartasAleatorias"></div>
+            <br>
+            <p class="log-header">Bubble log:</p>
+            <div class="row align-items-center d-flex justify-content-center mx-auto" id="cartasOrdenadas"></div>
+            <div class="cards-container"></div>
+            <div class="sort-container mt-5">
 
-
-
-        <div class="header-container mt-5 text-center">
-            <div class="header-content">
-                <label for="amount_of_cards">Original:</label>
-                <input type="text" id="cards_amount" placeholder="" />
-                <button class="draw-btn">Draw</button>
-                <button class="sort-btn">Sort</button>
-                <div class="cards-container"></div>
-                <div class="sort-container mt-5">
-                    <p class="log-header">Select sort log:</p>
-                    <div class="sorted-cards"></div>
-                </div>
+                <div class="sorted-cards"></div>
 
             </div>
+
+
 </body>
 
 </html>
